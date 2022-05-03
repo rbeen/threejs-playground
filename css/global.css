@@ -1,0 +1,25 @@
+html {
+  --theme-color-olive: #A3BCB6;
+  --theme-color-greenleaf: #39603D;
+  --theme-color-browngrey: #3C403D;
+  --theme-color-tanly: #DADED4;
+  --theme-color-white: #FFFFFF;
+
+  --theme-background-color: var(--theme-color-tanly);
+  --theme-article-color: var(--theme-color-white);
+  --theme-color: var(--theme-color-browngrey);
+
+  background: var(--theme-background-color);
+  color: var(--theme-color);
+}
+
+article {
+  background: var(--theme-article-color);
+  display: inline-block;
+  padding: 1em 2em;
+  box-shadow:
+    0px 0px 0.7px rgba(0, 0, 0, 0.081),
+    0px 0px 2.2px rgba(0, 0, 0, 0.119),
+    0px 0px 10px rgba(0, 0, 0, 0.2)
+  ;
+}
