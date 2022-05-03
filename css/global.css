@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto&display=swap');
+
 html {
   --theme-color-olive: #A3BCB6;
   --theme-color-greenleaf: #39603D;
@@ -8,18 +10,31 @@ html {
   --theme-background-color: var(--theme-color-tanly);
   --theme-article-color: var(--theme-color-white);
   --theme-color: var(--theme-color-browngrey);
+  --theme-font-family: 'Roboto', sans-serif;
+  --theme-heading-font-family: 'Lora', sans-serif;
 
   background: var(--theme-background-color);
   color: var(--theme-color);
+  font-family: var(--theme-font-family);
+}
+
+h1 {
+  font-family: var(--theme-heading-font-family);
+  font-weight: 700;
 }
 
 article {
   background: var(--theme-article-color);
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
   padding: 1em 2em;
   box-shadow:
     0px 0px 0.7px rgba(0, 0, 0, 0.081),
     0px 0px 2.2px rgba(0, 0, 0, 0.119),
     0px 0px 10px rgba(0, 0, 0, 0.2)
   ;
+}
+
+canvas {
+  border: 1px solid var(--theme-color-greenleaf);
 }
