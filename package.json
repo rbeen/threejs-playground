@@ -1,0 +1,26 @@
+{
+  "name": "threejs-playground",
+  "version": "0.0.1",
+  "description": "Just a place to try out three.js",
+  "engines" : { 
+    "node" : ">=18.0.0"
+  },
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbeen/threejs-playground.git"
+  },
+  "author": "Rob Been <rob@two-legs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbeen/threejs-playground/issues"
+  },
+  "homepage": "https://github.com/rbeen/threejs-playground#readme",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.31"
+  }
+}
